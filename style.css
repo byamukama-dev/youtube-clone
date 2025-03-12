@@ -488,7 +488,9 @@ navv{
   }
    }
    .video-template3{
+    display: none;
     @media (max-width:455px){
+        display: block;
         width: 100%;
       }
    }
@@ -506,3 +508,4 @@ navv{
     margin-right: 75px;
     }
    }
+ 
