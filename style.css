@@ -54,7 +54,7 @@ form{
     display: flex;
     align-items: center; 
     justify-content: center;
-
+    cursor: pointer;
     @media (max-width:455px){
         display: none;
 }
@@ -142,6 +142,7 @@ section{
     display: flex;
     align-items: center;
     gap: 0.9rem;
+    
 }
 .bxs-home{
     font-size: 1.5rem;
@@ -204,3 +205,304 @@ border-radius: 0.5rem;
         grid-template-columns: repeat(1, 1fr);
 }
 }
+.left{
+    width: 70%;
+background-color: #fff;
+@media (max-width:455px){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+        flex-direction: column;
+}
+video{
+    @media (max-width:455px){
+        width: 100%;
+        object-fit: cover;
+    } 
+}
+}
+.right{
+    width: 30%;
+    background-color:#fff;
+ 
+}
+.imgp2{
+    width: 100%;
+   padding: 1rem;
+   border-radius: 2rem;
+}
+.bigbox{
+    display: flex;
+    @media (max-width:455px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.video-template1{
+    display: flex;
+}
+.img12{
+    width: 150px;
+    border-radius: 1rem;
+}
+.pr1{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.pr12{
+    font-size: 12px;
+    padding: 0;
+   
+}
+.last-text{
+    padding: 10px;
+    font-weight: lighter;
+}
+.video{
+    border-radius: 10px;
+    border-radius: 1rem; 
+    padding-left: 3rem;
+}
+.profilsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-weight: bold;
+}
+.abox{
+    padding-left: 35px;
+    padding-top: 10px;
+    @media (max-width:455px){
+   padding-left: 10px;
+    }
+}
+.titleofmix{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn1{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 70px;  
+    font-size: 12px;
+    gap: 10px;
+    cursor: pointer;
+    @media (max-width:455px) {
+        display: none;}
+}
+.btn2{
+    @media (max-width:455px){
+        display: none;
+    }
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;  
+    font-size: 12px;
+    color: white;
+    gap: 10px;
+    cursor: pointer;
+}
+.buttons2{
+    display: flex;
+    gap: 1rem;
+    padding-right: 47px;
+    cursor: pointer;
+}
+.buttoncreatecircle{
+     background-color: #F2F2F2;
+    border: none;
+    border-radius: 50%;
+    height:35px;
+    width: 35px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    @media (max-width:455px){
+        display: none;
+    }
+}
+.commentbox{
+    width: 95%;
+    background-color: #F2F2F2;
+  margin-top: 1rem;
+  height: 60px;
+  padding-top: 12px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.bx-like{
+    font-size: 12px;
+}
+.bxs-share{
+    font-size: 12px;  
+}
+.bx-download{
+    font-size: 12px;  
+}
+.commentsec{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.commentsec{
+    margin-top: 15px;
+    
+}
+.colin{
+    width: 40px;
+    border-radius: 100%;
+}
+navv{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    @media (max-width:455px){
+        display: none;
+    }
+
+
+
+
+
+
+}
+@media (max-width:455px){
+    .video-template1{
+        display: flex;
+        display: none;
+    }
+    .All{
+        border: none;
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        background-color: rgb(242,242,242);
+        display: none;
+        }
+        .video{
+            border-radius: 10px;
+            border-radius: 1rem; 
+            padding-left: 3rem;
+            width: 100%;
+}}
+.profilee{
+    width: 40px;
+    border-radius: 100%;
+    @media (max-width:455px){
+        display: none;
+}}
+
+.bx-searchh{
+    font-size: 1.5rem;
+    @media (max-width:455px){
+        /* font-size: 1.8rem; */
+        display: block;
+}
+}
+.bx-castt{
+    font-size: 1.2rem;
+    display: none;
+    @media (max-width:455px){
+        display: block;
+        font-size: 1.8rem;
+}}
+.you tubee{
+    display: flex;
+
+    align-items: center;
+    @media (max-width:455px){
+        display: none;}
+}
+    .bx-belll{
+        @media (max-width:455px){
+            font-size: 1.8rem;
+            display: none;
+        
+    }
+    }
+    .bx-menuu{
+        font-size: 1.2rem;
+        @media (max-width:455px){
+            font-size: 1.5rem;
+            display: block;
+    }
+    }
+    .page222{
+        @media (max-width:455px){
+            
+            display: none;
+    } 
+    }
+    .bx-dots-horizontal-rounded{
+        /* background-color: #000; */
+        @media (max-width:455pxs){
+            display: none;
+        }
+    }
+   
+
+   .buttonmobileee{
+    
+    @media (max-width:455pxs){
+        
+       display: flex;
+    }
+   }
+   .buttonmobilee{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+  margin-top: 10px;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    overflow-x: auto;
+   }
+   .MMM{
+    @media (max-width:455pxs){
+        
+        display: none;
+     }
+   }
+   .comnt{
+  @media (max-width:455px){
+    display: none;
+  }
+   }
+   .video-template3{
+    @media (max-width:455px){
+        width: 100%;
+      }
+   }
+   .img123{
+    @media (max-width:455px){
+        width: 100%;
+         object-fit: contain;
+      }
+   }
+   .img122{
+    padding: 1rem;
+   }
+   .video{
+    @media (max-width:455px){
+    margin-right: 75px;
+    }
+   }
